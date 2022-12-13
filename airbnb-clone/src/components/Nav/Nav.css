@@ -1,0 +1,23 @@
+.nav-header {
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    padding: 10px 50px;
+    margin-bottom: 40px;
+}
+
+.nav {
+    display: flex;    
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;    
+    
+}
+
+.nav img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav h1 {
+    font-size: 30px;
+    color: #FF5A5F;
+}

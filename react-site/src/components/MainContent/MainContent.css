@@ -1,0 +1,27 @@
+.main-content {
+    color: #ffffff;
+    background-image: url('../../images/react.svg');  
+    background-repeat: no-repeat;
+    background-position: right -18px;
+    background-size: 350px 350px;
+    width: 800px;    
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.list {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+
+.list li::marker {
+    font-size: 1.8rem;
+    color: #61DAFB
+}
