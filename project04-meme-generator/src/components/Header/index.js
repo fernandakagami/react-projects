@@ -1,7 +1,6 @@
 import logo from "../../images/troll-face.png"
 import './Header.css'
 
-
 export default function Header() {
     return (
         <header className="header">
