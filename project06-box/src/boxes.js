@@ -22,5 +22,17 @@ export default [
     {
         id: 6,
         on: false
+    }, 
+    {
+        id: 7,
+        on: true
     },   
+    {
+        id: 8,
+        on: false
+    },   
+    {
+        id: 9,
+        on: true
+    },     
 ]
