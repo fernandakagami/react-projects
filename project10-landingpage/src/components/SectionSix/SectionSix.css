@@ -1,0 +1,25 @@
+.Section-Six {
+    background-color: #A5410F;
+    padding: 60px 0;
+    color: white;
+    min-width: 1000px;    
+}
+
+.Section-Six-Container {
+    width: 1000px;
+    margin: 0 auto 20px;       
+    position: relative;
+}
+
+.Section-Six-Contact {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.Section-Six-Text {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 350px;
+}

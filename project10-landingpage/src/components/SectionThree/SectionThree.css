@@ -1,0 +1,27 @@
+.Section-Three-Background {  
+    background-color: rgba(165, 65, 15, 0.18);
+    overflow: hidden;
+    min-width: 1000px;
+}
+
+.Section-Three {  
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.Section-Three-Title-Recent {
+    font-size: 36px;
+    font-weight: 700;
+    color: #A5410F;
+    margin: 60px 0 0 0;    
+    border-top: 1px solid #A5410F;
+    width: 300px;
+}
+
+.Section-Three-Title-Project {
+    font-size: 85px;
+    font-weight: 700;
+    color: #A5410F;
+    margin: 0 0 80px 0; 
+}

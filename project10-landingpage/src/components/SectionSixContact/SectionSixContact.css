@@ -1,0 +1,17 @@
+.Section-Six-Contacts {
+    font-size: 18px;    
+}
+
+.Section-Six-Email, .Section-Six-What {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.Section-Six-Email p, .Section-Six-What p {
+    margin-bottom: 0;
+}
+
+.Icon-Contact {
+    margin-right: 10px;
+}

@@ -1,0 +1,17 @@
+.Person-Container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.circle {
+    position: absolute;
+    width: 220px;
+    padding-left: 50px;
+}
+
+.person {
+    width: 90%;
+    padding: 70px 0 0 50px;
+
+}

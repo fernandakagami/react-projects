@@ -1,0 +1,32 @@
+.Contact-Container {
+    width: 40%;
+    margin: 0 auto;  
+    padding-right: 50px ;
+}
+
+.Contact-Container h2 {
+    color: #506269;
+    font-size: 48px;
+    font-weight: 700;    
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 3px 5px #848484;
+    margin-bottom: 1px;
+}
+
+.Contact-Container p {
+    font-size: 22px;
+    color: #506269;
+    margin-bottom: 40px;
+}
+
+.Contact-Container button {
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    background-color: #A5410F;
+    border: none;
+    padding: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

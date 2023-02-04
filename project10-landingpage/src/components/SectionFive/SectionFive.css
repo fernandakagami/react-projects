@@ -1,0 +1,72 @@
+.Section-Five {    
+    background-color: #131E07;
+    padding: 10px 0 130px;
+    min-width: 1000px;
+}
+
+.Section-Five-Container {
+    width: 1000px;
+    margin: 0 auto 120px;
+}
+
+.Title-One-Advantages {
+    margin-bottom: 0;
+    font-size: 36px;
+    color: white;
+}
+
+.Title-Two-Advantages {
+    margin: 0 0 50px;
+    font-size: 85px;
+    font-size: 700;
+    color: white;
+}
+
+.Advantages {
+    display: grid;     
+    grid-template-columns: 1fr 1fr;    
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.Advantage {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;     
+    line-height: 1.6;
+    margin-bottom: 50px;
+    
+}
+
+.Advantage:nth-child(odd) {
+    margin-right: 80px;
+}
+
+.Advantage-Title {
+    color: #D5963D;
+    font-size: 22px;
+    margin: 0;
+}
+
+.Advantage-Content {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.Advantage-Quote {
+    font-weight: 900;
+}
+
+.Advantage-Container {
+    display: grid;
+    grid-template-columns: 1fr 9fr; 
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+

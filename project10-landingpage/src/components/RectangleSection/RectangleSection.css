@@ -1,0 +1,37 @@
+.RectangleSectionContainer {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;    
+}
+
+.RectangleSection {
+    width: 900px;
+    background-color: #D5963D;
+    display: flex;
+    justify-content: space-around;       
+    padding: 50px;
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: -120px;   
+}
+
+.RectangleSectionType {
+    width: 250px;
+    border-right: 1px solid white;
+    padding: 0 40px;
+    list-style: none;    
+}
+
+.RectangleSectionType:last-child {
+    border-right: 0px;
+}
+
+.stripeImage {
+    background-image: url('../../images/stripe.png');
+    background-repeat: no-repeat;    
+    background-position: 110% 50%;
+    width: 1000px;
+    height: 300px;    
+}
+

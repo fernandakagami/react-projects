@@ -1,0 +1,24 @@
+.Section-Four {           
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0 0;       
+}
+
+.Section-Four-Title {
+    width: 30%;
+    border-top: 1px solid #506269;    
+}
+
+.Title-One-Client {
+    color: #506269;
+    font-size: 36px;
+    font-weight: 700;    
+    margin-bottom: 0;
+}
+
+.Title-Two-Client {
+    color: #D5963D;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0 0 50px;
+}

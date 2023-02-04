@@ -1,0 +1,66 @@
+.ListContainer {
+    width: 1000px;
+    margin: 0;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.MovieContainer {    
+    display: flex;    
+    transform: translateX(0px);
+    transition: all 1s ease;
+    margin-bottom: 50px;     
+}
+
+.ItemContainer {
+    margin-right: 50px;
+}
+
+.ItemContainer:last-child {
+    margin-right: 0;
+}
+
+.MainImage {    
+    width: 500px;
+    object-fit: cover;
+}
+
+.SliderArrowContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+}
+
+.SliderArrow {           
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #D5963D;
+    text-align: center;
+    padding-top: 2px;
+    margin-left: 10px;
+}
+
+.ImageTitle {
+    color: #731F07;
+    margin: 0;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.ImageText {
+    color: #731F07;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.Line {
+    background-color: #D5963D;
+    width: 90%;
+    height: 2px;    
+    position: absolute;
+    top: 399px;
+}

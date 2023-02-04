@@ -1,0 +1,41 @@
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;    
+}
+
+.title {
+    text-align: left !important;
+    float: left;
+}
+
+.title span {
+    color: #A5410F;
+}
+
+.navegation-bar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+.navegation-option {
+    list-style: none;      
+    font-size: 18px;
+    color: #848484;
+    margin-left: 40px;
+    text-shadow: 0 3px 4px #848484;
+}
+
+.navegation-option:first-child {
+    color: #A5410F;
+    font-weight: bold;
+}
+
+.navegation-option a:link, :visited {
+    text-decoration: none;
+    color: inherit
+}
+

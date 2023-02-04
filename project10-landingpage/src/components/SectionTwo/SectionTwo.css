@@ -1,0 +1,9 @@
+.Section-Two {    
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;    
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    position: relative;
+}

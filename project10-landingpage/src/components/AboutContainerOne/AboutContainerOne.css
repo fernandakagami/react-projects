@@ -1,0 +1,25 @@
+.about-title {
+    font-size: 40px;
+    font-weight: bold;    
+    margin-right: 80px;
+}
+
+.about {
+    border-top: 1.5px solid #506269;
+    width: 40%;  
+    padding: 20px 200px 0 0;
+    margin: 0 70px 0 0;
+    font-size: 36px;
+    color: #506269;
+}
+
+.about-name {
+    margin: 0;
+    font-size: 85px;
+    color: #A5410F;
+}
+
+.diga {
+    font-size: 85px;
+    color: #506269;
+}

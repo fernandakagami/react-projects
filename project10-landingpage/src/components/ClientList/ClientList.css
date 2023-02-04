@@ -1,0 +1,15 @@
+.Client-List {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: -30px;
+    margin-bottom: 280px;
+}
+
+.Client {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
