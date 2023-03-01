@@ -5,6 +5,7 @@ import TableRow from '@mui/material/TableRow'
 import { useState, useEffect } from 'react'
 import IRestaurante from "../../../interfaces/IRestaurante"
 import axios from "axios"
+import { Link } from 'react-router-dom'
 
 const AdministracaoRestaurantes = () => {
 
@@ -23,6 +24,9 @@ const AdministracaoRestaurantes = () => {
                         <TableCell>
                             Nome
                         </TableCell>
+                        <TableCell>
+                            Editar
+                        </TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -30,6 +34,9 @@ const AdministracaoRestaurantes = () => {
                         <TableRow key={restaurante.id}>
                             <TableCell>
                                 {restaurante.nome}
+                            </TableCell>
+                            <TableCell>
+                                [ <Link to={`/admin/restaurantes/${restaurante.id}`}>editar</Link> ]
                             </TableCell>
                         </TableRow>
                         )}
