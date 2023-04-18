@@ -3,7 +3,8 @@ import Menu from './componentes/Menu';
 import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
 import Rodape from './componentes/Rodape';
-import PaginaPadrao from "componentes/PaginaPadrao";
+import PaginaPadrao from "./componentes/PaginaPadrao";
+import Post from "./paginas/Post";
 
 export default function AppRoutes() {
   return (
@@ -11,8 +12,9 @@ export default function AppRoutes() {
       <Menu />
       <Routes>
         <Route path="/" element={<PaginaPadrao />}>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/sobremim" element={<SobreMim />} />
+          <Route index element={<Inicio />} />
+          <Route path="sobremim" element={<SobreMim />} />
+          <Route path="posts/:id" elemen={<Post />} />
         </Route>
 
         <Route path="*" element={<div>Página não encontrada.</div>} />
