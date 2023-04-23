@@ -6,9 +6,12 @@ export default function Banner() {
     return (
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
-                <h1 className={styles.titulo}>Olá, Mundo!</h1>
+                <h1 className={styles.titulo}>
+                    Olá, Mundo!
+                </h1>
+
                 <p className={styles.paragrafo}>
-                    Hello, hello. I am Hello.
+                    Boas vindas ao meu espaço pessoal! Eu sou Antônio Evaldo, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
                 </p>
             </div>
 
@@ -16,16 +19,15 @@ export default function Banner() {
                 <img
                     className={styles.circuloColorido}
                     src={circuloColorido}
-                    alt="circulo colorido"
                     aria-hidden={true}
+                    alt=""
                 />
 
                 <img
                     className={styles.minhaFoto}
                     src={minhaFoto}
-                    alt="minha foto"                    
+                    alt="Foto do Antônio Evaldo sorrindo"
                 />
-
             </div>
         </div>
     )
