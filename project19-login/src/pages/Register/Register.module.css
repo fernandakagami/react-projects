@@ -1,0 +1,38 @@
+.register {    
+    max-width: 500px;
+    margin: 150px auto 0 auto;   
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+    width: 100%;    
+}
+
+.field {
+    padding-bottom: 10px;   
+}
+
+.label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input {
+    width: 100%;
+    font-size: 20px;
+}
+
+.button {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 900;
+    background-color: #2274A5;
+    margin-top: 5px;
+}

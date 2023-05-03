@@ -1,17 +1,15 @@
 import styles from './Header.module.css';
-import { Link, useLocation } from "react-router-dom";
+import NavLink from '../NavLink';
 
-export default function Header() {
-    const location = useLocation();
-
+export default function Header() {    
     return (
-        <header>
+        <header className={styles}>
             <nav>
                 <NavLink to="/">
-                    Início
+                    Home
                 </NavLink>
-                <NavLink to="/sobremim">
-                    Sobre Mim
+                <NavLink to="/register">
+                    Register
                 </NavLink>
             </nav>
         </header>

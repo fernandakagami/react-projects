@@ -1,4 +1,13 @@
-nav {
-    padding: 40px 0;
-    text-align: center;    
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;    
+}
+
+nav {   
+    height: 100px;    
+    background-color: #2274A5;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
